@@ -1,0 +1,51 @@
+stereoCameraCalibrator
+stereoParams = 
+  stereoParameters (具有属性):
+
+   Parameters of Two Cameras
+        CameraParameters1: [1x1 cameraParameters]
+        CameraParameters2: [1x1 cameraParameters]
+   Inter-camera Geometry
+        RotationOfCamera2: [3x3 double]
+     TranslationOfCamera2: [-98.0586 3.5881 -0.3277]
+        FundamentalMatrix: [3x3 double]
+          EssentialMatrix: [3x3 double]
+   Accuracy of Estimation
+    MeanReprojectionError: 0.2856
+   Calibration Settings
+              NumPatterns: 12
+              WorldPoints: [54x2 double]
+               WorldUnits: 'mm'
+estimationErrors = 
+  stereoCalibrationErrors (具有属性):
+
+      Camera1IntrinsicsErrors: [1x1 intrinsicsEstimationErrors]
+      Camera1ExtrinsicsErrors: [1x1 extrinsicsEstimationErrors]
+      Camera2IntrinsicsErrors: [1x1 intrinsicsEstimationErrors]
+       RotationOfCamera2Error: [0.0017 0.0022 2.6797e-04]
+    TranslationOfCamera2Error: [0.3754 0.2519 1.3831]
+stereoParams = 
+  stereoParameters (具有属性):
+
+   Parameters of Two Cameras
+        CameraParameters1: [1x1 cameraParameters]
+        CameraParameters2: [1x1 cameraParameters]
+   Inter-camera Geometry
+        RotationOfCamera2: [3x3 double]
+     TranslationOfCamera2: [-98.0586 3.5881 -0.3277]
+        FundamentalMatrix: [3x3 double]
+          EssentialMatrix: [3x3 double]
+   Accuracy of Estimation
+    MeanReprojectionError: 0.2856
+   Calibration Settings
+              NumPatterns: 12
+              WorldPoints: [54x2 double]
+               WorldUnits: 'mm'
+estimationErrors = 
+  stereoCalibrationErrors (具有属性):
+
+      Camera1IntrinsicsErrors: [1x1 intrinsicsEstimationErrors]
+      Camera1ExtrinsicsErrors: [1x1 extrinsicsEstimationErrors]
+      Camera2IntrinsicsErrors: [1x1 intrinsicsEstimationErrors]
+       RotationOfCamera2Error: [0.0017 0.0022 2.6797e-04]
+    TranslationOfCamera2Error: [0.3754 0.2519 1.3831]
