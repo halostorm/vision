@@ -280,13 +280,13 @@ int main()
 //    camera_frame(cameraLeft, timeout);
 //    camera_frame(cameraRight, timeout);
   }
-
+for (int i = 0; i < 10; i++) {
   camera_frame(cameraLeft, timeout1);
   camera_frame(cameraRight, timeout2);
  
   unsigned char* rgbLeft =
     yuyv2rgb(cameraLeft->head.start, cameraLeft->width, cameraLeft->height);
-  FILE* outLeft = fopen("resultLeft.jpg", "w");
+  FILE* outLeft = fopen("resultLeft".jpg", "w");
 
   jpeg(outLeft, rgbLeft, cameraLeft->width, cameraLeft->height, 100);
   fclose(outLeft);
@@ -299,7 +299,7 @@ int main()
   jpeg(outRight, rgbRight, cameraRight->width, cameraRight->height, 100);
   fclose(outRight);
   free(rgbRight);
-
+}
   camera_stop(cameraLeft);
   camera_stop(cameraRight);
 
